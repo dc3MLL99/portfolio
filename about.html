@@ -31,9 +31,35 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>SheCodes Portfolio</title>
+    <meta
+      name="description"
+      content="Dakota is a front-end developer based in London. Learn more about her here."
+    />
+    <title>About Dakota - Dakota Pais Molloy</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/logo.png" class="logo d-none d-md-block" />
+          <img src="images/logo-small.jpg" class="logo d-block d-md-none" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Page"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Page"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -54,5 +80,54 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Page"
+          >
+            Contact Me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:dakota99@hotmail.co.uk" class="email-link"
+          >Dakota99@hotmail.co.uk</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://github.com/dc3MLL99?tab=repositories"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" title="Facebook Profile">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Dakota Pais Molloy and it is
+        <a href="https://github.com/dc3MLL99/portfolio" target="_blank"
+          >open-sourced.</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
